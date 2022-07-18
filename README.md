@@ -25,7 +25,7 @@ Sort Aşamaları
 4 [2,6,16,18,22,27]
 ```
 
-Big O Gösterimi
+Big-O Gösterimi
 ```
 Worst Case   = O(n^2)
 Avarage Case = O(n^2)
@@ -54,3 +54,41 @@ Sıralama Sonrasında 18 Sayısı Hangi Case Kapsamında?
 3 [3,5,7,2,8,9,4,15,6]
 4 [3,5,2,7,8,9,4,15,6]
 ```
+
+## Merge Sort Projesi
+https://app.patika.dev/courses/veri-yapilari-ve-algoritmalar/merge-sort-proje
+
+### Talep
+[16,21,11,8,12,22] -> Merge Sort
+
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+Big-O gösterimini yazınız.
+
+### Çözüm
+
+Aşamaları
+ ```
+                [16,21,11,8,12,22]
+ 
+          |16,21,11|           |8,12,22|
+ 
+|16|         |21,11|           |8,12|         |22|
+ 
+|16|     |21|   |11|           |8|   |12|     |22|
+ 
+|16|         |11,21|           |8,12|         |22|
+ 
+          |11,16,21|           |8,12,22|
+ 
+                |8,11,12,16,21,22|
+ 
+ 
+ ```
+
+Big-O Gösterimi
+ ```
+Worst Case   =  θ(nLogn) 
+Average Case =  θ(nLogn)
+Best Case    =  θ(nLogn) 
+ ```
+ 
