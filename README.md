@@ -92,3 +92,84 @@ Average Case =  θ(nLogn)
 Best Case    =  θ(nLogn) 
  ```
  
+ ## Binary Search Tree Projesi
+https://app.patika.dev/courses/veri-yapilari-ve-algoritmalar/binary-search-tree-proje
+
+### Talep
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+
+### Çözüm
+```
+                      7
+                  
+                      7
+                    /
+                  5
+                  
+                      7
+                    /
+                   5
+                  /
+                1
+              
+                      7
+                     /  \
+                    5    8
+                  /
+                1
+              
+                      7
+                     /  \
+                    5    8
+                  /
+                1 
+                  \
+                    3
+                
+                      7
+                     /  \
+                    5    8
+                   /  \
+                  1    6
+                    \
+                     3
+                
+                       7
+                     /  \
+                   5      8
+                  /  \
+                 1    6
+               /  \
+              0    3
+
+
+                       7
+                     /  \
+                   5      8
+                  /  \      \
+                 1    6       9
+               /  \
+              0    3
+              
+                      7
+                     /  \
+                   5      8
+                  /  \      \
+                 1    6       9
+               /  \
+              0    3
+                    \
+                     4
+                     
+                      7
+                     /  \
+                   5      8
+                  /  \      \
+                 1    6       9
+               /  \
+              0    3
+                  / \
+                 2   4
+```
