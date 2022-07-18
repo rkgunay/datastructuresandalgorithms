@@ -1,7 +1,7 @@
 # Patika.dev Data Structures Course Projects
 
 ## Insertion Sort Projesi
-
+https://app.patika.dev/courses/veri-yapilari-ve-algoritmalar/insertion-sort-proje
 ### Talep
 [22,27,16,2,18,6] -> Insertion Sort
 
